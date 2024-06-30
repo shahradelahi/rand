@@ -1,6 +1,6 @@
 {
   "name": "@se-oss/rand",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A utility library for generating random strings, numbers and UUIDs.",
   "author": "Shahrad Elahi <shahrad@litehex.com> (https://github.com/shahradelahi)",
   "license": "MIT",
