@@ -114,3 +114,24 @@ export function randomNumber(minOrLength: number, max?: number): number {
   }
   return Math.floor(Math.random() * (max - minOrLength + 1)) + minOrLength;
 }
+
+/**
+ * Picks a random element from an array.
+ *
+ * @template T - The type of the elements in the array.
+ * @template U - The type of the return value.
+ * @param {readonly T[]} input - The array to pick a random element from.
+ * @returns {U} A random element from the array.
+ *
+ * @example
+ * const myArray = ['apple', 'banana', 'cherry'];
+ * const randomFruit = randomPick(myArray);
+ * console.log(randomFruit); // Example output: 'banana' (or another random fruit)
+ */
+export function randomPick<T extends readonly unknown[], U = T[number]>(input: T): U {
+  if (typeof (input as unknown) !== 'object' || !Array.isArray(input)) {
+    throw new Error('input must be an array');
+  }
+
+  return input[Math.floor(Math.random() * input.length)] as U;
+}
