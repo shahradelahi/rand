@@ -3,7 +3,7 @@
 [![CI](https://github.com/shahradelahi/rand/actions/workflows/ci.yml/badge.svg)](https://github.com/shahradelahi/rand/actions/workflows/ci.yml)
 [![NPM Version](https://img.shields.io/npm/v/@se-oss/rand.svg)](https://www.npmjs.com/package/@se-oss/rand)
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](/LICENSE)
-[![Install Size](https://packagephobia.com/badge?p=@se-oss/rand)](https://packagephobia.com/result?p=neval)
+[![Install Size](https://packagephobia.com/badge?p=@se-oss/rand)](https://packagephobia.com/result?p=@se-oss/rand)
 
 This library provides functions for generating random strings and numbers in various formats, including Base10, Base36, Base62, UUIDv4, and random numbers within specified ranges or lengths.
 
